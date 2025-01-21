@@ -51,3 +51,19 @@
 .react-chatbot-kit-chat-bot-message{
   margin-left: 0;
 }
+
+.footer{
+  font-family: "Caveat", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  background-color: #8c8c8b;
+  width: 70vw;
+  text-align: center;
+}
+
+.footer a{
+ text-decoration:none;
+ color: #000;
+}

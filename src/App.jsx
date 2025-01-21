@@ -6,6 +6,8 @@ import MessageParser from "./Messageparser";
 import ActionProvider from "./Actionprovider";
 import './App.css'
 
+var date = new Date;
+date = date.getFullYear();
 
 function App() {
   return (
@@ -15,8 +17,11 @@ function App() {
         messageParser={MessageParser}
         actionProvider={ActionProvider}
       />
-      <footer></footer>
+      <footer className='footer'>
+      <p> &copy; {date} <a href="https://vishal9821.github.io/vishal-aagwani/">Vishal Aagwani</a></p>
+      </footer>
     </div>
+
 )
 }
 export default App
